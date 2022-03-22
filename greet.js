@@ -5,5 +5,3 @@ export function greet(coach) {
     return "Hello stranger!";
   }
 }
-
-console.log(greet("Martin"));
