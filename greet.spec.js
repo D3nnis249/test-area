@@ -22,14 +22,14 @@ describe("test for the greet function", () => {
 });
 
 describe("test for the greet function", () => {
-  it("if the name NOT equal Thomas or Martin or Stefan return 'Hello Coach'", () => {
+  it("if the name NOT equal Thomas or Martin or Stefan return 'Hello Stranger!'", () => {
     const result = greet("Peter");
     expect(result).toBe("Hello stranger!");
   });
 });
 
 describe("test for the greet function", () => {
-  it("if the name NOT equal Thomas or Martin or Stefan return 'Hello Coach'", () => {
+  it("if the name NOT equal Thomas or Martin or Stefan return 'Hello Stranger!'", () => {
     const result = greet("Dennis");
     expect(result).toBe("Hello stranger!");
   });
